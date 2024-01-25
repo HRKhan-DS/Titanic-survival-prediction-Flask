@@ -127,6 +127,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+titanic/
+#notebooks
+notebooks/
 
 # Spyder project settings
 .spyderproject
