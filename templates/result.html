@@ -11,7 +11,7 @@
     <h1>Prediction Result</h1>
 
     {% if prediction == 1 %}
-        <img src="{{ url_for('static', filename='survive.jpg') }}" alt="Ship Titanic Image" width="400">
+        <img src="{{ url_for('static', filename='survive.jpg') }}" alt="Survive Titanic Image" width="400">
     {% else %}
         <img src="{{ url_for('static', filename='not_survive.jpg') }}" alt="Not Survive Image" width="400">
     {% endif %}
