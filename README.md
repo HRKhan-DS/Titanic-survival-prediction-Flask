@@ -1,5 +1,6 @@
 ## Titanic-Machine Learning from disaster with deployment <br>
-Work Flow--
+
+*** Work Flow ***
 
     requirements.txt and setup.py:
         Create a requirements.txt file listing the project dependencies.
@@ -21,48 +22,3 @@ Work Flow--
     Documentation and Version Control:
         Write a comprehensive README.md to document your project, including instructions for running the application and any other relevant information.
         Create a .gitignore file to specify files or directories that should be ignored by version control.
-
-*** Project Structure" ***
-
-titanic_ml_from_disaster/
-|-- notebooks/
-|   |-- titanic_EDA.ipynb
-|   |-- model_train.ipynb
-|   |-- submission.csv
-|   |-- test_prepare_data.csv
-|   |-- train_cleaned_data.csv
-|-- src/
-|   |-- __init__.py
-|   |-- config.py
-|   |-- load_data.py
-|   |-- preprocessing.py
-|   |-- outlier_handling.py
-|   |-- features_eng.py
-|   |-- train_model.py
-|   |-- predict_model.py
-|-- data/
-|   |--model
-|   |  |-- rf_pipeline.pkl
-|   |-- preprocessed_data
-|   |   |-- cleaned_train_data.csv
-|   |-- raw_data
-|       |-- train_titanic.csv
-|-- deploy/
-|   |-- __init__.py
-|   |-- cleaned_data.csv
-|   |-- rf_pipeline_dep.pkl
-|   |-- deploy_train_model.py
-|-- static/
-|   |-- not_survive.jpg
-|   |-- ship_titanic.jpg
-|   |-- survive.jpg
-|   |-- styless.css
-|-- templates/
-|      |-- index.html
-|      |-- result.html
-|      |-- error.html
-|-- app.py
-|-- README.md
-|-- requirements.txt
-|-- setup.py
-|-- .gitignore
