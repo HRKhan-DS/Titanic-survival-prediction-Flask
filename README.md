@@ -1,4 +1,6 @@
 ## Titanic-Machine Learning from disaster with deployment <br>
+![ship](static/ship-titanic.jpg)  <br>
+
 
 *** Work Flow ***
 
